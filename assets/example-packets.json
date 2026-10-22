@@ -1,0 +1,28 @@
+{
+  "device": "X11 Mouse",
+  "prefix_bytes": 164964,
+  "profile_bytes": 32992,
+  "packets": {
+    "0C_full_apply": "0c 0a 01 fe 01 fe",
+    "04_dpi": {
+      "length": 56,
+      "hex": "04 38 01 00 00 3f 20 20 12 25 38 4b 75 81 00 00 00 00 00 00 00 01 00 00 02 ff 00 00 00 ff 00 00 00 ff ff ff 00 00 ff ff ff 00 ff ff 40 00 ff ff ff 02 0f 67 00 00 00 00",
+      "checksum_ok": true
+    },
+    "05_lighting": {
+      "length": 15,
+      "hex": "05 0f 01 10 01 a8 00 d4 ff 0a 02 02 98 00 00",
+      "checksum_ok": true
+    },
+    "06_polling": {
+      "length": 9,
+      "hex": "06 09 01 01 fe 00 00 00 00"
+    },
+    "08_buttons": {
+      "length": 59,
+      "hex": "08 3b 01 02 00 00 03 00 00 04 00 00 01 00 00 01 00 00 0d 00 00 06 00 00 05 00 00 01 00 00 01 00 00 01 00 00 01 00 00 01 00 00 01 00 00 01 00 00 01 00 00 09 00 00 0a 00 00 00 3e",
+      "checksum_ok": true
+    }
+  },
+  "macros": []
+}
