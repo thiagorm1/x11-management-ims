@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "x11-management-ims"
+version = "1.0.0"
+authors = [
+  { name = "IMS Hardware Engineering", email = "engineering@ims.local" },
+]
+description = "X11 Management IMS (Integrated Management System) — Hardware Control Suite"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: System :: Hardware :: Hardware Drivers",
+]
+dependencies = []
+
+[project.scripts]
+x11-management-ims = "x11_management.cli:main"
+x11-gui = "x11_management.gui:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+x11_management = ["*.json", "assets/*"]
